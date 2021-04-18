@@ -1,3 +1,9 @@
+# Quick Start
+1. Open terminal with the frontend
+2. Run npm install to install all the dependencies.
+3. Run npm start
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
