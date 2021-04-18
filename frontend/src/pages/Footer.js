@@ -1,9 +1,10 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 function Footer() {
     return (
         <>
-                        <footer className="site-footer">
+            <footer className="site-footer">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-9">
@@ -11,7 +12,7 @@ function Footer() {
                             <div className="col-md-6 mb-5 mb-lg-0 col-lg-3">
                                 <h2 className="footer-heading mb-4">Quick Links</h2>
                                 <ul className="list-unstyled">
-                                <li><a href=" #">About Us</a></li>
+                                <li><Link to="/about">About Us</Link></li>
                                 <li><a href=" #">Services</a></li>
                                 <li><a href=" #">Testimonials</a></li>
                                 <li><a href=" #">Contact Us</a></li>

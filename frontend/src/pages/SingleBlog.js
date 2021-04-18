@@ -6,6 +6,7 @@ function SingleBlog() {
     return (
         <>
             <div className="site-wrap">
+            
                 <Navbar />
 
                 <div className="site-blocks-cover overlay" style={{backgroundImage: 'url(images/hero_bg_1.jpg)'}} data-aos="fade" data-stellar-background-ratio="0.5">
